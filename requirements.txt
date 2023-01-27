@@ -1,0 +1,6 @@
+pytest
+pytest-mock
+hypothesis
+black
+flake8
+pytest-cov
