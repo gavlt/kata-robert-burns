@@ -4,7 +4,7 @@
 
 Robert Burns was a Scottish poet and lyricist, widely regarded as the national poet of Scotland. His poetry celebrated the common people, country life, and the customs and traditions of Scotland. Burns Night, which is celebrated on January 25th, is a celebration of his life and work.
 
-# Task
+## Task
 
 You are given a directory of text files containing poetry written by Robert Burns. Your task is to write a script that takes in the filepaths of the Burns poems as input and calculate the type-token ratio (TTR) for each poem. TTR is a measure of lexical diversity or lexical richness (for more context see https://en.wikipedia.org/wiki/Lexical_density), it's calculated by dividing the number of unique words in a text by the total number of words in the text.
 
@@ -12,7 +12,7 @@ For example, if a text contains 100 words and has 40 unique words, the TTR would
 
 A starter example with an `argparse` and `main` construct to receive the filepath argument, open the file and print a result is provided.
 
-### Input
+### Input
 
 A file path to the poem text file.
 
@@ -27,7 +27,7 @@ A float value representing the TTR of the poem.
 - To calculate the TTR of a poem, you will first need to tokenize the text of the poem and then calculate the number of unique words and the total number of words in the poem.
 - The argparse library has been used to open the file of the poem passed as a command-line argument.
 
-## Bonuses
+## Bonuses
 
 Implement a simple [stemmer](https://en.wikipedia.org/wiki/Stemming) to preprocess the text before calculating the TTR. A stemmer is a tool that removes the suffixes from words. For example, "running" and "runner" will be stemmed to "run".
 
